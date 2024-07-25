@@ -373,3 +373,105 @@ header{
  }
  /* end training field  */
  
+
+
+/* start bmi field  */
+.bmi-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .bmi-header {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 88px;
+ }
+ .bmi-header > h3 {
+    font-size: 28px;
+    line-height: 120%;
+ }
+ .bmi-calculator{
+    width: 100%;
+    height: 487px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: rgb(34, 34, 34);
+ }
+ 
+ 
+ .bmi-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .bmi-chart > h3 {
+    width: 45%;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    margin: 52px 0;
+ }
+ table,th,td{
+    text-align-last: left;
+    padding: 10px 20px;
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+ }
+ .bmi-cal {
+    width: 577px;
+    height: 386px;
+ }
+ .bmi-cal > h2 {
+    margin: 49px 0 14px 0;
+ }
+ .bmi-cal > p {
+    margin-bottom: 34px;
+ }
+ .bmi-cal > form {
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+ }
+ .bmi-col {
+    grid-column: 1 / 3;
+ }
+ 
+ 
+ .bmi-cal > form > input {
+    border-radius: 8px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px;
+    margin: 6px 12px 6px 0;
+ }
+ .bmi-cal > form > select {
+    border-radius: 8px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px;
+    margin: 6px 12px 6px 0;
+ }
+ 
+ 
+ .cal,
+ .run-content > button {
+    margin-top: 34px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    background: rgb(230, 83, 60);
+ }
+ /* end bmi field  */
+ 
