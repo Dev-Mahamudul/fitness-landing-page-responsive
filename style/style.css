@@ -53,3 +53,45 @@ footer > span,
    letter-spacing: 0.5px;
 }
 /* global style end  */
+
+/* nav field start */
+nav{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .main-nav{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .logo {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: capitalize;
+ }
+ .menu-bar > ul {
+    display: flex;
+    gap: 47px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+ }
+ .menu-bar > ul > li {
+    border-radius: 46px; 
+   
+    padding: 8px 20px;
+    text-transform: capitalize;
+ }
+ .menu-bar >ul > li:active{
+    background: rgb(230, 83, 60);
+ }
+ /* nav field end  */
+ 
