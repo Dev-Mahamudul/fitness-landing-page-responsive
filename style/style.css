@@ -99,11 +99,13 @@ nav{
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 3.1rem;
+    
  }
  .menu-bar > ul > li {
     border-radius: 46px; 
     padding: 8px 20px;
     text-transform: capitalize;
+    
  }
  .menu-bar >ul > li:active{
     background: rgb(230, 83, 60);
@@ -228,11 +230,14 @@ header{
     justify-content: center;
     align-items: center;
  }
- .habit > h1 {
-    margin-bottom: 14px;
+ .habit > h2 {
+    margin-bottom: 2rem;
     font-size: 48px;
     font-weight: 900;
     line-height: 120%;
+ }
+ .habit > p {
+   margin-bottom:  2rem;
  }
  .habit-card-container {
     display: grid;
@@ -619,205 +624,3 @@ footer{
     border: 2px solid rgba(255, 255, 255, 0.1);
  }
  /* end footer field  */
- 
- /* for small devices  */
-
-@media only screen and (max-width: 576px) {
-    body {
-        padding: 0 10px;
-        border: 2px solid white;
-    }
-    h2 {
-        font-size: 32px;
-        font-weight: 900;
-        line-height: 120%;
-    }
-    /* start navigation field  */
-    .checkbtn {
-        display: block;
-        order: 1;
-        margin-right: 20px;
-      }
-    
-      ul {
-        position: fixed;
-        top: 80px;
-        right: -100%;
-        background-color: green;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: all 0.3s;
-      }
-    
-      ul li {
-        margin: 20px 0;
-      }
-    
-      ul li a {
-        font-size: 20px;
-      }
-    
-      #check:checked ~ ul {
-        right: 0;
-      }
-      /* end navigation field  */
-      /* start banner field  */
-      header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 120vh;
-        width: 100%;
-      }
-      .main-nav{
-        width: 100%;
-      }
-      .banner{
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-      .banner-content{
-        width: 100%;
-        height: 60%;
-      }
-      .banner-content > h1 {
-        font-size: 2.25rem;
-        padding-right: 50px;
-      }
-      .banner-img {
-        width: 100%;
-        background-size: cover;
-      }
-      .box2 {
-        margin-right: 20px;
-        margin-top: 35px;
-        width: 145.91px;
-        height: 74.09px;
-      }
-      .box1 {
-        margin-top: 300px;
-        margin-left: 0px;
-        width: 155.74px;
-        height: 72.58px;
-      }
-      .btn-join{
-        display: none;
-      }
-      .btn-join-1{
-        display: inline-block;
-        order: 1;
-        border-radius: 42px;
-        border: none;
-        padding: 16px 40px;
-        background: rgb(230, 83, 60);
-      }
-      .btn-download{
-        padding: 16px 40px;
-        box-sizing: border-box;
-        border: 1px solid rgb(255, 255, 255);
-        border-radius: 42px;
-
-      }
-      /* end banner field  */
-
-      /* start habit field  */
-      .habit-container {
-        width: 100%;
-        height: 170vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .habit-card-container{
-        width: 100%;
-        height: 1216px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 58px;
-      }
-      .habit-card-1,
-      .habit-card-2,
-      .habit-card-3,
-      .habit-card-4 {
-        width: 231px;
-        height: 274px;
-        margin-bottom: 36px;
-      }
-      .habit-content {
-        width: 318px;
-        height: 124px;
-        text-align: center;
-      }
-    
-      /* end habit field  */
-
-      /* start run field  */
-      .run-container {
-        width: 100%;
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .run {
-        width: 100%;
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-      }
-      .run-content{
-        width: 287px;
-        height: 264px;
-        margin-left: 0;
-      }
-      .run-content > h2 {
-        font-size: 32px;
-        font-weight: 900;
-        line-height: 120%;
-        margin-bottom: 14px;
-     
-     
-     }
-     .run > img {
-        width: 287px;
-        height: 170px;
-        object-fit: none;
-        object-position: 65% 30%;
-        border-radius: 5%;
-     }
-      /* end run field  */
-
-      /* start training field  */
-      .training-container {
-        display: none;
-      }
-      /* end training field  */
-
-      /* start bmi field  */
-      .bmi-container {
-        display: none;
-      }
-      /* end bmi field  */
-
-      /* start team field  */
-      .team-container {
-        display: none;
-      }
-      .footer-box {
-        display: none;
-      }
-      /* end team field  */
-}
