@@ -1,4 +1,4 @@
-/* for small devices  */
+/* start responsive for small devices  */
 
 @media only screen and (max-width: 576px) {
   body {
@@ -323,3 +323,137 @@
   }
 }
 /* end footer field  */
+/* end responsive for small devices  */
+
+
+/* start responsive for mid level device  */
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .main-nav {
+    width: 90%;
+  }
+  .menu-bar > ul {
+    gap: 5px;
+  }
+  header {
+    width: 100%;
+    height: 140vh;
+  }
+  .banner {
+    width: 70%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .banner-content {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .habit-container {
+    height: 100vh;
+  }
+  .habit {
+    width: 566px;
+    height: 766px;
+  }
+  .habit-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    row-gap: 80px;
+  }
+  .run-container {
+    height: 50vh;
+  }
+  .run {
+    width: 684px;
+    height: 400px;  
+  }
+  .run-content > h2 {
+    font-size: 2.25rem;
+    margin-bottom: 14px;
+  }
+  .run-content > p {
+    font-size: 0.8rem;
+  }
+  .run > img {
+    width: 256px;
+    height: 319px;
+    object-fit: cover;
+    object-position:70% 30%;
+  }
+  .training {
+    width: 684px;
+    height: 581px;
+  }
+  .img-4 {
+    justify-content: flex-end;
+    padding: 0 0 18px 18px;
+  }
+  .bmi-header {
+    width: 90%;
+  }
+  .bmi-calculator {
+    height: 816px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bmi-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+  }
+  .bmi-cal {
+    width: 684px;
+    height: 386px;
+    padding-left: 40px;
+  }
+  .team-container {
+    width: 100%;
+    height: 100vh;
+  }
+  .team {
+    width: 100%;
+  }
+  .team-img {
+    width: 677px;
+    height: 604px;
+  }
+  .why-choose-box {
+    width: 90%;
+    height: 80vh;
+    padding: 0px;
+  }
+  .why-choose-card {
+    height: 60vh;
+    grid-template-rows: repeat(2, 300px);
+  }
+  footer {
+    height: 769px;
+  }
+  .footer-box {
+    width: 682px;
+    height: 527px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-content > .logo {
+    font-size: 5.75rem;
+  }
+  .menu-1 > h3,
+  .menu-2 > h3 {
+    font-size: 2rem;
+  }
+  .menu-1 > ul > li,
+  .menu-2 > ul > li {
+    font-size: 1.25rem;
+    padding: 5px 0;
+  }
+}
+
+/* end responsive for mid level device  */
